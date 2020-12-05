@@ -11,7 +11,7 @@
             "ref": "origin/test",
             "repo": "git@gitlab.zugeliang01.com:shiyi/zgl-nest-crm.git",
             "path": "/home/admin/node-service/zgl-nest-crm",
-            "post-deploy": "cd /home/admin/node-service/zgl-nest-crm/source && git pull && bash /home/admin/node-service/zgl-nest-crm/current/deploy.sh",
+            "post-deploy": "cd /home/admin/node-service/zgl-nest-crm/source && git pull && pwd && node -v && npm install --production && pm2 startOrRestart ecosystem.json",
             "env": {
                 "NODE_ENV": "test"
             }
