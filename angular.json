@@ -25,6 +25,7 @@
             "tsConfig": "view/tsconfig.app.json",
             "assets": [
               "view/assets",
+              "view/favicon.ico",
               {
                 "glob": "**/*",
                 "input": "./node_modules/@ant-design/icons-angular/src/inline-svg/",
@@ -104,6 +105,7 @@
             "scripts": [],
             "assets": [
               "view/assets",
+              "view/favicon.ico",
               "view/manifest.webmanifest"
             ]
           }
