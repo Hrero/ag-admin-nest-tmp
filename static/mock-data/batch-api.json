@@ -1,0 +1,52 @@
+{
+    "code": 0,
+    "data": [
+        {
+            "name": "批量打标",
+            "keyName": "marker_item",
+            "showTips": "您需要选择列数: <strong>1列</strong>，对应列的信息: <strong>用户ID/物料/订单编号</strong>",
+            "url": "/marker/item_add_marker",
+            "server": "dubboApiServer",
+            "method": "post",
+            "params": [
+                { "label": "用户/物料编号", "key": "itemId", "type": "select", "needChoose": true,
+                    "dataType": "text"
+                },
+                { "label": "标记类型", "key": "itemType", "type": "select", "needChoose": false,
+                    "dataType": "text",
+                    "optionList": [
+                        { "name": "订单", "value": "ORDER"},
+                        { "name": "商品", "value": "MERCHANDISE"},
+                        { "name": "用户", "value": "USER"}
+                    ]
+                },
+                { "label": "标签标识", "key": "identifier", "type": "select", "needChoose": false, "sourceKey": "markerIdentifier", "dataType": "text" },
+                { "label": "标签ID", "key": "markerId", "type": "select", "needChoose": false, "sourceKey": "markerId", "dataType": "number" }
+            ]
+        },
+        {
+            "name": "取消打标",
+            "keyName": "del_marker_item",
+            "showTips": "您需要选择列数: <strong>1列</strong>，对应列的信息:  <strong>用户ID/物料/订单编号</strong>",
+            "url": "/marker/item_del_marker",
+            "server": "dubboApiServer",
+            "method": "post",
+            "params": [
+                { "label": "用户/物料编号", "key": "itemId", "type": "select", "needChoose": true,
+                    "dataType": "text"
+                },
+                { "label": "标记类型", "key": "itemType", "type": "select", "needChoose": false,
+                    "dataType": "text",
+                    "optionList": [
+                        { "name": "订单", "value": "ORDER"},
+                        { "name": "商品", "value": "MERCHANDISE"},
+                        { "name": "用户", "value": "USER"}
+                    ]
+                },
+                { "label": "标签标识", "key": "identifier", "type": "select", "needChoose": false, "sourceKey": "markerIdentifier", "dataType": "text" },
+                { "label": "标签ID", "key": "markerId", "type": "select", "needChoose": false, "sourceKey": "markerId", "dataType": "number" }
+            ]
+        }
+    ],
+    "msg": "OK"
+}

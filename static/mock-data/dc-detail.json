@@ -1,0 +1,523 @@
+{
+    "result": [
+        {
+            "fieldResults": [
+                {
+                    "fieldValueType": {
+                        "name": "NUMERIC"
+                    },
+                    "fieldCalculateType": {
+                        "name": "LATEST"
+                    },
+                    "values": [
+                        {
+                            "value": {
+                                "value": "0.00"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 77,
+                            "gmtModified": 1598253746476,
+                            "gmtCreated": 1596682689897
+                        }
+                    ],
+                    "description": "支付时间在当月且发货时间在当月的订单12期合同金额\t",
+                    "attributes": "",
+                    "fieldId": 77,
+                    "fieldName": "当月下单当月发货12期合同额"
+                },
+                {
+                    "fieldValueType": null,
+                    "fieldCalculateType": null,
+                    "values": [
+                        {
+                            "value": {
+                                "value": "8726303.68"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 61,
+                            "gmtModified": 1598253800378,
+                            "gmtCreated": 1596211320422
+                        }
+                    ],
+                    "description": "当前可以参与融资租赁平台的订单的融资放款总额",
+                    "attributes": null,
+                    "fieldId": 61,
+                    "fieldName": "融资租赁总额"
+                },
+                {
+                    "fieldValueType": null,
+                    "fieldCalculateType": null,
+                    "values": [
+                        {
+                            "value": {
+                                "value": "2589660.45"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 62,
+                            "gmtModified": 1598253804181,
+                            "gmtCreated": 1596211320710
+                        }
+                    ],
+                    "description": "可发起融资租赁流程且还处于待风控审核的订单，对应的融资租赁总额",
+                    "attributes": null,
+                    "fieldId": 62,
+                    "fieldName": "待审核融资租赁总额"
+                },
+                {
+                    "fieldValueType": null,
+                    "fieldCalculateType": null,
+                    "values": [
+                        {
+                            "value": {
+                                "value": "105406.90"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 63,
+                            "gmtModified": 1598253808081,
+                            "gmtCreated": 1596211321034
+                        }
+                    ],
+                    "description": "可发起融资租赁流程且当前状态为待资方授权的订单，对应的融资租赁总额",
+                    "attributes": null,
+                    "fieldId": 63,
+                    "fieldName": "待商家授权融资总额"
+                },
+                {
+                    "fieldValueType": null,
+                    "fieldCalculateType": null,
+                    "values": [
+                        {
+                            "value": {
+                                "value": "145.00"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 51,
+                            "gmtModified": 1598253795633,
+                            "gmtCreated": 1596211319905
+                        }
+                    ],
+                    "description": "订单发货时间在本月，支付时间在本月之前的订单数",
+                    "attributes": null,
+                    "fieldId": 51,
+                    "fieldName": "本月发货往期支付订单数"
+                },
+                {
+                    "fieldValueType": null,
+                    "fieldCalculateType": null,
+                    "values": [
+                        {
+                            "value": {
+                                "value": "12525002.60"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 41,
+                            "gmtModified": 1598253791232,
+                            "gmtCreated": 1596211319589
+                        }
+                    ],
+                    "description": "筛选时间范围内，未关闭的账单应收金额总和",
+                    "attributes": null,
+                    "fieldId": 41,
+                    "fieldName": "当期账单应收金额"
+                },
+                {
+                    "fieldValueType": null,
+                    "fieldCalculateType": null,
+                    "values": [
+                        {
+                            "value": {
+                                "value": "9931.00"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 32,
+                            "gmtModified": 1598253771835,
+                            "gmtCreated": 1596211316342
+                        }
+                    ],
+                    "description": "",
+                    "attributes": null,
+                    "fieldId": 32,
+                    "fieldName": "当前在租客户总数"
+                },
+                {
+                    "fieldValueType": null,
+                    "fieldCalculateType": null,
+                    "values": [
+                        {
+                            "value": {
+                                "value": "61991560.81"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 39,
+                            "gmtModified": 1598253788087,
+                            "gmtCreated": 1596211319168
+                        }
+                    ],
+                    "description": null,
+                    "attributes": null,
+                    "fieldId": 39,
+                    "fieldName": "实际支付商家提现金额累计"
+                },
+                {
+                    "fieldValueType": null,
+                    "fieldCalculateType": null,
+                    "values": [
+                        {
+                            "value": {
+                                "value": "221581721.28"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 36,
+                            "gmtModified": 1598253782579,
+                            "gmtCreated": 1596211318417
+                        }
+                    ],
+                    "description": null,
+                    "attributes": null,
+                    "fieldId": 36,
+                    "fieldName": "当前在租设备采购总值"
+                },
+                {
+                    "fieldValueType": null,
+                    "fieldCalculateType": null,
+                    "values": [
+                        {
+                            "value": {
+                                "value": "22799.00"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 37,
+                            "gmtModified": 1598253785489,
+                            "gmtCreated": 1596211318875
+                        }
+                    ],
+                    "description": null,
+                    "attributes": null,
+                    "fieldId": 37,
+                    "fieldName": "当前有效客户数"
+                },
+                {
+                    "fieldValueType": null,
+                    "fieldCalculateType": null,
+                    "values": [
+                        {
+                            "value": {
+                                "value": "114699.00"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 35,
+                            "gmtModified": 1598253777788,
+                            "gmtCreated": 1596211317160
+                        }
+                    ],
+                    "description": null,
+                    "attributes": null,
+                    "fieldId": 35,
+                    "fieldName": "当前在租总台数"
+                },
+                {
+                    "fieldValueType": null,
+                    "fieldCalculateType": null,
+                    "values": [
+                        {
+                            "value": {
+                                "value": "10726688.51"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 2,
+                            "gmtModified": 1598253686977,
+                            "gmtCreated": 1596211304840
+                        }
+                    ],
+                    "description": null,
+                    "attributes": null,
+                    "fieldId": 2,
+                    "fieldName": "有效销售总额"
+                },
+                {
+                    "fieldValueType": null,
+                    "fieldCalculateType": null,
+                    "values": [
+                        {
+                            "value": {
+                                "value": "696775.66"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 14,
+                            "gmtModified": 1598253756639,
+                            "gmtCreated": 1596211313677
+                        }
+                    ],
+                    "description": null,
+                    "attributes": null,
+                    "fieldId": 14,
+                    "fieldName": "平台服务费收入"
+                },
+                {
+                    "fieldValueType": null,
+                    "fieldCalculateType": null,
+                    "values": [
+                        {
+                            "value": {
+                                "value": "5659469.27"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 15,
+                            "gmtModified": 1598253761976,
+                            "gmtCreated": 1596211314686
+                        }
+                    ],
+                    "description": null,
+                    "attributes": null,
+                    "fieldId": 15,
+                    "fieldName": "实际支付商家提现金额"
+                },
+                {
+                    "fieldValueType": {
+                        "name": "NUMERIC"
+                    },
+                    "fieldCalculateType": {
+                        "name": "LATEST"
+                    },
+                    "values": [
+                        {
+                            "value": {
+                                "value": "1146.00"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 4,
+                            "gmtModified": 1598253699583,
+                            "gmtCreated": 1596211305992
+                        }
+                    ],
+                    "description": "支付时间在当月，订单状态不在已取消，已删除，风控拒绝的订单数",
+                    "attributes": "",
+                    "fieldId": 4,
+                    "fieldName": "新增订单(个)"
+                },
+                {
+                    "fieldValueType": {
+                        "name": "NUMERIC"
+                    },
+                    "fieldCalculateType": {
+                        "name": "LATEST"
+                    },
+                    "values": [
+                        {
+                            "value": {
+                                "value": "665.00"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 6,
+                            "gmtModified": 1598253712424,
+                            "gmtCreated": 1596211307177
+                        }
+                    ],
+                    "description": "订单支付时间在本月的下单用户数量，排除无效状态",
+                    "attributes": "",
+                    "fieldId": 6,
+                    "fieldName": "下单客户数(家)"
+                },
+                {
+                    "fieldValueType": {
+                        "name": "NUMERIC"
+                    },
+                    "fieldCalculateType": {
+                        "name": "LATEST"
+                    },
+                    "values": [
+                        {
+                            "value": {
+                                "value": "6222.00"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 8,
+                            "gmtModified": 1598253727179,
+                            "gmtCreated": 1596211308532
+                        }
+                    ],
+                    "description": "支付时间在当月的订单对应的订单设备台数累计，排除无效状态",
+                    "attributes": "",
+                    "fieldId": 8,
+                    "fieldName": "新增设备数(台)"
+                },
+                {
+                    "fieldValueType": null,
+                    "fieldCalculateType": null,
+                    "values": [
+                        {
+                            "value": {
+                                "value": "666.00"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 9,
+                            "gmtModified": 1598253732126,
+                            "gmtCreated": 1596211309526
+                        }
+                    ],
+                    "description": null,
+                    "attributes": null,
+                    "fieldId": 9,
+                    "fieldName": "下单用户数"
+                },
+                {
+                    "fieldValueType": {
+                        "name": "NUMERIC"
+                    },
+                    "fieldCalculateType": {
+                        "name": "LATEST"
+                    },
+                    "values": [
+                        {
+                            "value": {
+                                "value": "567.00"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 10,
+                            "gmtModified": 1598253736491,
+                            "gmtCreated": 1596211310484
+                        }
+                    ],
+                    "description": "续租订单的支付时间在当月的订单数",
+                    "attributes": "",
+                    "fieldId": 10,
+                    "fieldName": "续租客户(家)"
+                },
+                {
+                    "fieldValueType": null,
+                    "fieldCalculateType": null,
+                    "values": [
+                        {
+                            "value": {
+                                "value": "1147.00"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 11,
+                            "gmtModified": 1598253741290,
+                            "gmtCreated": 1596211311486
+                        }
+                    ],
+                    "description": null,
+                    "attributes": null,
+                    "fieldId": 11,
+                    "fieldName": "新增订单数"
+                },
+                {
+                    "fieldValueType": null,
+                    "fieldCalculateType": null,
+                    "values": [
+                        {
+                            "value": {
+                                "value": "5565.00"
+                            },
+                            "dataPeriod": {
+                                "name": "MONTHLY"
+                            },
+                            "valueString": null,
+                            "valueDate": 1596211200000,
+                            "fieldId": 13,
+                            "gmtModified": 1598253751591,
+                            "gmtCreated": 1596211312377
+                        }
+                    ],
+                    "description": null,
+                    "attributes": null,
+                    "fieldId": 13,
+                    "fieldName": "发货台数"
+                }
+            ],
+            "dataPeriod": {
+                "name": "MONTHLY"
+            },
+            "layout": "",
+            "gmtModified": 1597821231824,
+            "isRealtime": null,
+            "gmtCreated": 1593685825783,
+            "date": 1596211200000,
+            "title": "整体运营数据概览"
+        }
+    ],
+    "success": true,
+    "message": null,
+    "code": 0
+}

@@ -1,0 +1,76 @@
+[
+    {
+        "name": "客户管理",
+        "url": "/crm/customer",
+        "icon": "user",
+        "isOpen": true,
+        "id": "2001",
+        "child": [
+            {
+                "url": "/crm/customer/groupseas",
+                "name": "集团公海",
+                "isOpen": false,
+                "id": "200101"
+            },
+            {
+                "url": "/crm/customer/teamseas",
+                "name": "团队公海",
+                "isOpen": false,
+                "id": "200101"
+            },
+            {
+                "url": "/crm/customer/privatesea",
+                "name": "私海",
+                "isOpen": false,
+                "id": "200101"
+            }
+        ]
+    },{
+        "name": "规则设置",
+        "url": "/crm/rule",
+        "icon": "user",
+        "isOpen": true,
+        "id": "2001",
+        "child": [
+            {
+                "url": "/crm/rule/recyle",
+                "name": "回收规则",
+                "isOpen": false,
+                "id": "200101"
+            },
+            {
+                "url": "/crm/rule/PrivateseaLimit",
+                "name": "私海上限",
+                "isOpen": false,
+                "id": "200101"
+            },
+            {
+                "url": "/crm/rule/allot",
+                "name": "分配规则",
+                "isOpen": false,
+                "id": "200101"
+            }
+        ]
+    },{
+        "name": "系统管理",
+        "url": "/crm/system",
+        "icon": "user",
+        "isOpen": true,
+        "id": "2001",
+        "child": [
+            {
+                "url": "/crm/system/framework",
+                "name": "组织架构",
+                "isOpen": false,
+                "id": "200101"
+            },
+            {
+                "url": "/crm/system/role",
+                "name": "角色管理",
+                "isOpen": false,
+                "id": "200101"
+            }
+        ]
+    }
+
+]

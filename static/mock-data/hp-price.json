@@ -1,0 +1,101 @@
+[{
+    "goodsSn": "03159582233760400043",
+    "leaseWay": 4,
+    "period": 24,
+    "price": 120
+}, {
+    "goodsSn": "03159582233760400043",
+    "leaseWay": 4,
+    "period": 12,
+    "price": 128
+}, {
+    "goodsSn": "03159582233760400043",
+    "leaseWay": 3,
+    "period": 24,
+    "price": 188
+}, {
+    "goodsSn": "03159582233760400043",
+    "leaseWay": 3,
+    "period": 12,
+    "price": 308
+}, {
+    "goodsSn": "03159582233964500044",
+    "leaseWay": 4,
+    "period": 24,
+    "price": 138
+}, {
+    "goodsSn": "03159582233964500044",
+    "leaseWay": 4,
+    "period": 12,
+    "price": 158
+}, {
+    "goodsSn": "03159582233964500044",
+    "leaseWay": 3,
+    "period": 24,
+    "price": 198
+}, {
+    "goodsSn": "03159582233964500044",
+    "leaseWay": 3,
+    "period": 12,
+    "price": 318
+}, {
+    "goodsSn": "03159582234037200045",
+    "leaseWay": 4,
+    "period": 24,
+    "price": 165
+}, {
+    "goodsSn": "03159582234037200045",
+    "leaseWay": 4,
+    "period": 12,
+    "price": 168
+}, {
+    "goodsSn": "03159582234037200045",
+    "leaseWay": 3,
+    "period": 24,
+    "price": 248
+}, {
+    "goodsSn": "03159582234037200045",
+    "leaseWay": 3,
+    "period": 12,
+    "price": 408
+}, {
+    "goodsSn": "03159421145538400156",
+    "leaseWay": 4,
+    "period": 24,
+    "price": 95
+}, {
+    "goodsSn": "03159421145538400156",
+    "leaseWay": 4,
+    "period": 12,
+    "price": 98
+}, {
+    "goodsSn": "03159421145538400156",
+    "leaseWay": 3,
+    "period": 24,
+    "price": 138
+}, {
+    "goodsSn": "03159421145538400156",
+    "leaseWay": 3,
+    "period": 12,
+    "price": 228
+}, {
+    "goodsSn": "03159421140335100155",
+    "leaseWay": 4,
+    "period": 24,
+    "price": 120
+}, {
+    "goodsSn": "03159421140335100155",
+    "leaseWay": 4,
+    "period": 12,
+    "price": 128
+}, {
+    "goodsSn": "03159421140335100155",
+    "leaseWay": 3,
+    "period": 24,
+    "price": 168
+}, {
+    "goodsSn": "03159421140335100155",
+    "leaseWay": 3,
+    "period": 12,
+    "price": 288
+}]
