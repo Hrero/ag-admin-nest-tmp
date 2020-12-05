@@ -1,7 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import {HttpService} from '../../ng-sevice/http.service';
-import {REG_LIST} from '../../ng-data/regular-list';
 import {StateService} from '../../ng-sevice/state.service';
 import {LocalService} from '../../ng-sevice/local.service';
 import {ActivatedRoute, Router} from '@angular/router';

@@ -7,7 +7,6 @@ import { DepartmentService } from '../../ng-sevice/department.service'
 import { EnumService } from '../../ng-sevice/enum.service';
 import { isEmpty, getSmallObjectString } from 'zgl-utils-js';
 import { PowerService } from '../../ng-sevice/power.service'
-import enumList from '../../ng-data/enumList';
 import { NzMessageService } from 'ng-zorro-antd/message';
 
 interface FilterArray {

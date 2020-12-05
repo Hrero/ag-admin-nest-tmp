@@ -5,7 +5,6 @@ import {StateService} from '../../ng-sevice/state.service';
 import {LocalService} from '../../ng-sevice/local.service';
 import {ActivatedRoute, Router} from '@angular/router';
 import {NzMessageService, NzModalService} from 'ng-zorro-antd';
-import {REG_LIST} from '../../ng-data/regular-list';
 import {environment} from '../../../environments/environment';
 import {Title} from '@angular/platform-browser';
 import * as dd from 'dingtalk-jsapi';
@@ -136,7 +135,7 @@ export class BindComponent implements OnInit {
             this.openId = decodeURIComponent(openid);
             this.codeText = '获取验证码';
             this.validateForm = this.fb.group({
-                phone: [null, [Validators.required, Validators.pattern(REG_LIST.phone)]],
+                phone: [null, [Validators.required, Validators.pattern(/^[1][3,4,5,6,7,8,9][0-9]{9}$/)]],
                 smsCode: [null, [Validators.required, Validators.maxLength(6), Validators.minLength(6)]]
             });
             if (code) {

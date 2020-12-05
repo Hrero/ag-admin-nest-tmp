@@ -39,13 +39,8 @@ import {AppMenuComponent} from './app-menu/app-menu.component';
 import {AppHeaderComponent} from './app-header/app-header.component';
 import {ZglFilterComponent} from './zgl-filter/zgl-filter.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {ZglFormsComponent} from './zgl-forms/zgl-forms.component';
-import { SuccessIconComponent } from './app-icon/success-icon/success-icon.component';
-import { ErrorIconComponent } from './app-icon/error-icon/error-icon.component';
 import { LogoIconComponent } from './app-icon/logo-icon/logo-icon.component';
-import { GroupSeaIconComponent } from './app-icon/group-sea-icon/group-sea-icon.component'
-import { TeamIconComponent } from './app-icon/team-icon/team-icon.component'
-import { PrivateSeaIconComponent } from './app-icon/private-sea-icon/private-sea-icon.component';
+import {ZglFormsComponent} from './zgl-forms/zgl-forms.component';
 import { ExtattrDescPipe } from './ng-pipe/extattr-desc.pipe';
 import { CustomerStatusNumPipe } from './ng-pipe/customer-status-num.pipe';
 import { IsMobilePipe } from './ng-pipe/is-mobile.pipe';
@@ -56,13 +51,8 @@ const declarationsArr = [
     ZglFilterComponent,
     ZglFormsComponent,
     ExtattrDescPipe,
-    SuccessIconComponent,
-    GroupSeaIconComponent,
-    ErrorIconComponent,
-    PrivateSeaIconComponent,
-    LogoIconComponent,
     CustomerStatusNumPipe,
-    TeamIconComponent,
+    LogoIconComponent,
     IsMobilePipe
 ];
 
