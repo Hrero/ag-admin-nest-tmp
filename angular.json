@@ -24,7 +24,6 @@
             "polyfills": "view/polyfills.ts",
             "tsConfig": "view/tsconfig.app.json",
             "assets": [
-              "view/favicon.ico",
               "view/assets",
               {
                 "glob": "**/*",
@@ -104,7 +103,6 @@
             ],
             "scripts": [],
             "assets": [
-              "view/favicon.ico",
               "view/assets",
               "view/manifest.webmanifest"
             ]
